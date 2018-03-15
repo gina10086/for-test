@@ -1,0 +1,89 @@
+<div class="fl w300 border_re7e7e7 border_radius8">
+    <div class="tree_bar position_relative">
+        <span>机构管理</span>
+        <div class="tool position_absolute" style="right:10px;top:5px">
+            <a hre="javascript:;" class="button icon add" title="增加机构" id="maintain_add"></a>
+            <!-- <a hre="javascript:;" class="button icon del" title="删除机构" id="maintain_del_agency"></a> -->
+            <a hre="javascript:;" class="button icon print" title="打印"></a>
+            <!-- <a hre="javascript:;" class="button icon entry" title="退出"></a> -->
+            <!-- <a hre="javascript:;" class="button icon export" title="什么鬼"></a> -->
+        </div>
+    </div>
+    <ul class="padding10 tree" id="maintian_tree">
+    </ul>
+</div>
+<div class="border_radius8">
+    <div class="content_tag_box fl" id="content_tag_box">
+        <div class="content_tag">
+            <ul class="tags clearfix display_n" id="maintain_tag">
+                <li class="active">机构信息</li>
+                <li>所属成员</li>
+            </ul>
+            <div class="edit_agency_tag">新增机构</div>
+            <div id="maintain_content">
+                <div class="active">
+                    <div class="form_list">
+                        <div class="agency">
+                            <label for="code">机构编码:</label>
+                            <input type="text" name="code">
+                            <label for="name">机构名称:</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="agency">
+                            <label for="level">行政级别:</label>
+                            <input type="text" name="level">
+                            <label for="job">机构职能:</label>
+                            <input type="text" name="job">
+                        </div>
+                        <div class="agency">
+                            <label for="description">业务描述:</label>
+                            <input type="text" name="description">
+                            <label for="type">机构类型:</label>
+                            <input type="text" name="type">
+                        </div>
+                        <div class="agency">
+                            <label for="postCode">邮政编码:</label>
+                            <input type="text" name="postCode">
+                            <label for="count">编制人数:</label>
+                            <input type="text" name="count">
+                        </div>
+                        <div class="agency">
+                            <label for="otherCount">其它人数:</label>
+                            <input type="text" name="otherCount">
+                            <label for="principal">负责人:</label>
+                            <input type="text" name="principal">
+                        </div>
+                        <div class="agency">
+                            <label for="tel">联系电话:</label>
+                            <input type="text" name="tel">
+                            <label for="fax">传真:</label>
+                            <input type="text" name="fax">
+                        </div>
+                        <div></div>
+                        <div class="agency">
+                            <label for="addr">所处地址:</label>
+                            <input type="text" name="addr" class="addr">
+                        </div>
+                    </div>
+                    <div class="margin_left40 display_n" id="agencyEditBox">
+                    	<button class="button edit">编辑</button>
+                        <button class="button display_n save">保存</button>
+                        <button class="button display_n clear">清空</button>
+                        <button class="button display_n delete">删除</button>
+                        <button class="button display_n cancel" style="background: #ccc">取消</button>
+
+                    </div>
+                    <div id="addAgencyBox" class="margin_left40">
+                        <button class="button save">新增</button>
+                        <button class="button clear">清空</button>
+                        <button class="button cancel display_n" style="background: #ccc">取消</button>
+                    </div>
+                </div>
+                <div class="table_box" id="maintain_table">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="organization/maintain.server.js"></script>
+<script src="organization/maintain.controller.js"></script>

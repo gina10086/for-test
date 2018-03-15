@@ -1,0 +1,95 @@
+[
+	{
+		"name": "国家安全监管总局",
+		"agency": {
+			"code": "01001000",
+			"name":"北京市",
+			"level": "省级",
+			"job": "安监总局",
+			"description": "北京市安监总局矿业管理",
+			"type": "国家级",
+			"addr": "东城区",
+			"postCode":"010000",
+			"count": "60",
+			"otherCount": "20",
+			"principal": "奥利",
+			"tel": "156132413545",
+			"fax": "15346546446"
+		},
+		"member": [
+			{
+				"id": 1,
+				"name":"张安1",
+				"agency": "安监局",
+				"tel": "1234654",
+				"sex": "男",
+				"IDs": "1",
+				"job": "sfsdf",
+				"type":"s",
+				"email": "sfsdafdsa",
+				"fax": "23132",
+				"addr":"",
+				"commit": ""
+			},
+			{
+				"id": 1,
+				"name":"张安",
+				"agency": "安监局",
+				"tel": "1234654",
+				"sex": "男",
+				"IDs": "1",
+				"job": "sfsdf",
+				"type":"s",
+				"email": "sfsdafdsa",
+				"fax": "23132",
+				"addr":"",
+				"commit": ""
+			},
+			{
+				"id": 1,
+				"name":"李四",
+				"agency": "安监局",
+				"tel": "1234654",
+				"sex": "男",
+				"IDs": "1",
+				"job": "sfsdf",
+				"type":"s",
+				"email": "sfsdafdsa",
+				"fax": "23132",
+				"addr":"",
+				"commit": ""
+			},
+			{
+				"id": 1,
+				"name":"张三",
+				"agency": "安监局",
+				"tel": "1234654",
+				"sex": "男",
+				"IDs": "1",
+				"job": "sfsdf",
+				"type":"s",
+				"email": "sfsdafdsa",
+				"fax": "23132",
+				"addr":"",
+				"commit": ""
+			}
+		],
+		"children": ["办公室","政策法规司","规划科技司"]
+	},
+	{
+		"name":"北京市",
+		"children":["北京市安监局"]
+	},
+	{
+		"name":"天津"
+	},
+	{
+		"name":"河北省"
+	},
+	{
+		"name":"山西省"
+	},
+	{
+		"name":"内蒙古自治区"
+	}
+]
